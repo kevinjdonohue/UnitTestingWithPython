@@ -7,3 +7,6 @@ class Phonebook:
 
     def lookup(self, name):
         return self.entries[name]
+
+    def is_consistent(self):
+        return True
